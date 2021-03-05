@@ -1,14 +1,127 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
- <div>
-   
- </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/html5reset-1.6.1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- トップ -->
+    <div class="p-home">
+      <nav class="p-home__header">
+        <ul class="p-home__header__nav">
+          <li class="p-home__header__nav__item"><a href="#p-home-service__title">SERVICE</a></li>
+          <li class="p-home__header__nav__item"><a href="#p-home-works__title">WORK</a></li>
+          <li class="p-home__header__nav__item"><a href="#p-home-contact__title">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="p-home__header__main">
+        <h1 class="p-home__header__title">Taki's<br>PORTFOLIO</h1>
+      </div>
+        <div class="p-home__profile">
+            <p class="p-home__profile__image"><img src="./image/profile_img.jpg"></p>
+            <p class="p-home__profile__text">
+              名前：たっきー<br>
+              出身：三重県<br>
+              経歴：人材業界（求人広告代理店、派遣、人材業界）<br>
+              スポーツ：小学校からバスケットボール一筋！観るもするも好き！<br>
+              食べ物：3食納豆、3食海鮮で生きれるほど好き！
+            </p>
+        </div>
+    </div>
+    <!-- サービス -->
+    <div class="p-home-service">
+      <h2 id="p-home-service__title">SERVICE</h2>
+      <ul class="p-home-service__list">
+        <!-- HTML/CSS -->
+        <li class="p-home-service__item">
+          <div class="p-home-service__item-iconWrap">
+            <div class="p-home-service__item-icon">
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="p-home-service__item-cont">
+            <h3 class="p-home-service__item-contTitle">HTML/CSS</h3>
+            <p class="p-home-service__item-contTxt">
+              HTML/CSS,jQuery,Sassを使ってコーディング、HP,LP制作
+            </p>
+          </div>
+        </li>
+        <!-- wordpress -->
+        <li class="p-home-service__item">
+          <div class="p-home-service__item-iconWrap">
+            <div class="p-home-service__item-icon">
+              <i class="fa fa-wordpress" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="p-home-service__item-cont">
+            <h3 class="p-home-service__item-contTitle">WordPress</h3>
+            <p class="p-home-service__item-contTxt">
+              WordPressでのブログやHP制作、カスタマイズ制作
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- ワークス -->
+    <div class="p-home-works">
+      <h2 id="p-home-works__title">WORKS</h2>
+        <ul class="p-home-works__list">
+          <li class="p-home-works__item">
+            <a href="#"><img src="./image/works_img1.png"></a>
+          </li>
+          <li class="p-home-works__item">
+            <a href="https://preview.studio.site/live/v7qGbywjOL/1"><img src="./image/cosmedemo.jpg"></a>
+          </li>
+          <li class="p-home-works__item">
+            <a href="https://pepelog.com/"><img src="./image/snowmonkey.jpg"></a>
+          </li>      </ul>
+    </div>
+    <!-- コンタクト -->
+    <div class="p-home-contact">
+      <h2 id="p-home-contact__title">CONTACT</h2>
+      <p class="p-home-contact__coment">SNSでは日々の学習や活動の情報発信をしています。<br>
+        お仕事のご依頼も受け付けています。
+      </p>
+      <!-- コンタクトリスト -->
+      <ul class="p-home-contact__list">
+        <!-- Twitter -->
+        <li class="p-home-contact__item">
+          <div class="p-home-contact__item-iconWrap">
+            <div class="p-home-contact__item-icon">
+              <a href="https://twitter.com/prg_takki_"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </li>
+        <!-- Instagram -->
+        <li class="p-home-contact__item">
+          <div class="p-home-contact__item-iconWrap">
+            <div class="p-home-contact__item-icon">
+              <a href="https://www.instagram.com/takki_x_web/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </li>
+        <!-- mail -->
+        <li class="p-home-contact__item">
+          <div class="p-home-contact__item-iconWrap">
+            <div class="p-home-contact__item-icon">
+              <a href="mailto:ysptyc326&#64;gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- フッター -->
+    <div class="p-footer">
+      <p class="p-footer__txt"><small>&copy;Taki's PORTFOLIO</small></p>
+    </div>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="index.js"></script>
 </html>
